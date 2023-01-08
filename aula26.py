@@ -14,3 +14,5 @@ Sinal - + ou -
 Ex.: 0>-100,.1f
 Conversion flags - !r !s !a 
 """
+variavel = 'abc'
+print(f'{variavel}')
