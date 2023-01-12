@@ -30,7 +30,7 @@ Faça um programa que peça o primeiro nome do usuário. Se o nome tiver 4 letra
 menos escreva "Seu nome é curto"; se tiver entre 5 e 6 letras, escreva 
 "Seu nome é normal"; maior que 6 escreva "Seu nome é muito grande". 
 """
-nome_str = input('Me conte qual é o seu nome: ')
+nome_str = input('Me conte qual é o seu primeiro nome: ')
 tamanho_nome = len(nome_str)
 if tamanho_nome <= 4:
     print('Seu nome é curto')
