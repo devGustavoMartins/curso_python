@@ -4,3 +4,12 @@ while (enquanto)
 Executa uma ação enquanto uma condição for verdadeira
 Loop infinito -> Quando um código não tem fim
 """
+condicao = True
+
+while condicao:
+    nome = input('Qual é o seu nome? ')
+    if nome == 'sair':
+        break
+    print(f'Seu nome é {nome}')
+
+print('Acabou')
