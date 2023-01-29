@@ -4,12 +4,6 @@
 # Representados graficamente pelo diagrama de Venn
 # Sets em Python são mutáveis, porém aceitam apenas tipos imutáveis como valor interno.
 
-# Criando um set
-# set(iterável) ou {1, 2, 3}
-
-# s1 = set()  # Sem nada
-# s1 = {'Gustavo', 1, 2, 3}  # Com dados
-
 # Sets são eficientes para remover valores duplicados de iteráveis.
 # - Não aceitam valores mutáveis;
 # - Seus valores serão sempre únicos;
@@ -27,13 +21,3 @@ s1 = {1, 2, 2, 1, 1, 3, 3, 3}
 for numero in s1:
     print(numero)
 print(s1)
-
-
-# Métodos úteis:
-# add, update, clear, discard
-
-# Operadores úteis:
-# união | união (union) - Une
-# intersecção & (intersection) - Itens presentes em ambos
-# diferença - Itens presentes apenas no set da esquerda
-# diferença simétrica ^ - Itens que não estão em ambos

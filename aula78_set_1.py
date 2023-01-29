@@ -8,19 +8,3 @@
 # set(iterável) ou {1, 2, 3}
 s1 = set()  # Sem nada
 s1 = {'Gustavo', 1, 2, 3}  # Com dados
-
-# Sets são eficientes para remover valores duplicados de iteráveis.
-# - Não aceitam valores mutáveis;
-# - Seus valores serão sempre únicos;
-# - não tem índexes;
-# - não garantem ordem;
-# - são iteráveis (for, in, not in)
-
-# Métodos úteis:
-# add, update, clear, discard
-
-# Operadores úteis:
-# união | união (union) - Une
-# intersecção & (intersection) - Itens presentes em ambos
-# diferença - Itens presentes apenas no set da esquerda
-# diferença simétrica ^ - Itens que não estão em ambos
