@@ -27,15 +27,11 @@ lista_de_listas_de_inteiros = [
 def encontra_duplicado(lista_inteiros):
     numeros_conferidos = set()
     primeiro_duplicado = -1
-
     for numero in lista_inteiros:
         if numero in numeros_conferidos:
             primeiro_duplicado = numero
             break
-
         numeros_conferidos.add(numero)
-    
     return primeiro_duplicado
-
 for lista in lista_de_listas_de_inteiros:
     print(lista, 'Número duplicado:',encontra_duplicado(lista), end='\n \n')
